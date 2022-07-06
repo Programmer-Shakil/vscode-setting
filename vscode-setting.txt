@@ -1,0 +1,57 @@
+{
+  "editor.fontSize": 18,
+  "editor.tabSize": 4,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Learn with Sumit - Professional",
+
+  // color of comments
+  "editor.tokenColorCustomizations": {
+    "comments": "#a7a7a7"
+  },
+
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.cursorBlinking": "expand",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "files.autoSave": "afterDelay",
+  "editor.fontFamily": "\"Operator Mono Lig\", \"Operator Mono\", 'Fira Code', 'Menlo', Helvetica, monospace, Consolas, DejaVu Sans Mono, Cascadia Code",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.lineHeight": 1.6,
+  "security.workspace.trust.startupPrompt": "never",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+
+  // Power Mode Settings
+  "powermode.enabled": true,
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.combo.location": "off",
+  "powermode.shake.enabled": false,
+
+  // Editor Format Settings
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  // Some setting on terminal
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.fontFamily": "Operator Mono",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  // Live Sass Compiler Setting
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/css"
+    }
+  ],
+  "security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.banner": "never"
+}
